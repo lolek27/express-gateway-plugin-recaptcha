@@ -12,9 +12,10 @@ eg plugin install recaptcha
 
 ## Quick start
 
-In order to use this middleware be sure to make a post request from your site, including two fields in the body:
+In order to use this middleware be sure to make a post request from your site to your express middleware server, including two fields in the body:
 
 `g-recaptcha-response`: (required) The value of 'g-recaptcha-response' you get from Google server after checking the captcha plugin on your site.
+
 `remoteAddress`: (optional) The end user's ip address.
 
 1. Make sure the plugin is listed in [system.config.yml file](https://www.express-gateway.io/docs/configuration/system.config.yml/).
