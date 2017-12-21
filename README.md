@@ -30,6 +30,18 @@ policies:
               secretKey: '_____YOUR_SECRET_KEY_____'
 ```
 
+3. Possible answers
+
+```yaml
+{ responseSuccess: 'Success' }
+
+{ responseError: 'Please select captcha first'}
+
+{ responseError: 'Failed captcha verification' }
+
+```
+
+
 ### Configuration Parameters
 
 `secretKey`: The secret key you get from Google reCAPTCHA. Use this for communication between your site and Google. Be sure to keep it a secret.
